@@ -4,6 +4,8 @@ canvas.height = window.innerHeight;
 
 var ctx = canvas.getContext('2d');
 
+canvas.style.background = 'black';
+
 /*ctx.fillStyle = "rgba(255,0,0,0.5)";
 ctx.fillRect(400,400,100,100);
 // ctx.fillText("Hello there!",200,200,200);
