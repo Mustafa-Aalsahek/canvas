@@ -80,7 +80,7 @@ function Circle(x,y,xv,yv,radius, r, g, b, a){
     this.draw = function (){
         ctx.beginPath();
         ctx.arc(this.x, this.y, this.radius,0,Math.PI * 2, false);
-        ctx.fillStyle = `rgba(${r}, ${g}, ${b}, ${a})`;
+        ctx.fillStyle = `rgba(${r}, ${g}, ${b})`;
         ctx.fill();
        /* ctx.strokeStyle = 'red';
         ctx.stroke(); */
